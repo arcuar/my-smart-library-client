@@ -3,6 +3,7 @@ import Search from "./pages/Search";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
+import MyLibrary from "./pages/MyLibrary";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/search" element={<Search />} />     
+        <Route path="/search" element={<Search />} />  
+        <Route path="/library" element={<MyLibrary />} />   
       </Routes>
     </BrowserRouter>
   );

@@ -15,6 +15,13 @@ function Home() {
       >
         도서 검색하기
       </button>
+
+      <button
+  onClick={() => navigate("/library")}
+  className="bg-green-500 text-white px-6 py-3 rounded-lg mt-3"
+>
+  내 서재
+</button>
     </div>
   );
 }
